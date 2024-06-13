@@ -19,7 +19,8 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        caption=f"""◉ 𝙽𝙰𝙼𝙴 : ❪[sos](https://t.me/IZ3Zp)❫
+        photo=f"https://telegra.ph/file/e2120ef2b55fbd6e7b00e.jpg",
+        caption=f"""◉ 𝙽𝙰𝙼𝙴 : ❪[ᯓ 𓆩 ˹𝒑𝒓𝒐𝒈𝒓𝒂𝒎𝒎𝒆𝒓 𝒇𝒓𝒂𝒐𝒏˼《𝑆》™𝑃𝐹𓆪 𓆃˼](https://t.me/PV_FR3ON)❫
 ◉ 𝚄𝚂𝙴𝚁 : ❪ @PV_FR3ON ❫
 ◉ 𝙸𝙳      : ❪ 5490392130 ❫
 ◉ 𝙱𝙸𝙾    : ❪ صلي علي الحبيب محمد ✨♥ ❫""",
@@ -27,10 +28,10 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "᳒ᴅᴇᴠ ҒᎡ3ΌΝ", url=f"https://t.me/LinkXFrend"), 
+                        "᳒ᴅᴇᴠ ҒᎡ3ΌΝ", url=f"https://t.me/PV_FR3ON"), 
                  ],[
                    InlineKeyboardButton(
-                        "☭ ՏΌႮᎡᏟᎬ  ҒᎡ3ΌΝ ☭", url=f"https://t.me/LinkXFrend"),
+                        "☭ ՏΌႮᎡᏟᎬ  ҒᎡ3ΌΝ ☭", url=f"https://t.me/sorcefraon"),
                 ],
 
             ]

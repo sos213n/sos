@@ -23,13 +23,13 @@ async def Italymusic(client: Client, message: Message):
         elif user_id == OWNER_ID:
              rank = "مـالك الـبوت العظمه 🫡⚡️"
         elif member.status == 'creator':
-             rank = "مـالك 🫡⚡️"
+             rank = "مـالك الـبـار 🫡⚡️"
         elif member.status == 'administrator':
-             rank = "مـشـرف🫡⚡️"
+             rank = "مـشـرف الـبـار🫡⚡️"
         else:
              rank = "لاسف انت عضو فقير🥺💔"
     except Exception as e:
         print(e)
         rank = "مش عرفنلو مله ده😒"
         await message.reply_text(
-        text=f"""نعم حبيبي : {italy} 🥰❤️\n**انا اسمي: {bot_name} 🥺🙈\n**رتبتك هي : {rank}""", reply_markup=keyboard)
+        text=f"""نعم حبيبي : {italy} 🥰❤️\n**انا اسمي القميل : {bot_name} 🥺🙈\n**رتبتك هي : {rank}""", reply_markup=keyboard)

@@ -17,7 +17,9 @@ from random import  choice, randint
                 
 @app.on_message(filters.command(["السورس","ياسورس","يا سورس","سورس"],""))
 async def huhh(client: Client, message: Message):
-        caption=f"""◉ 𝙽𝙰𝙼𝙴 : ❪[Sᴏᴜʀᴄᴇ ғʀ𝟹ᴏɴ](https://t.me/LinkXFrend)❫
+    await message.reply_video(
+        video=f"https://telegra.ph/file/d0a2e1e5a0dd7ddbd6512.mp4",
+        caption=f"""◉ 𝙽𝙰𝙼𝙴 : ❪[Sᴏᴜʀᴄᴇ ғʀ𝟹ᴏɴ](https://t.me/sorcefraon)❫
 ◉ 𝚄𝚂𝙴𝚁 : ❪ @PV_FR3ON ❫
 ◉ 𝙸𝙳      : ❪ 5490392130 ❫
 ◉ 𝙱𝙸𝙾    : ❪ صلي علي الحبيب محمد ✨♥ ❫""",
@@ -25,10 +27,10 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "᳒ᴅᴇᴠ ҒᎡ3ΌΝ", url=f"https://t.me/IZ3Zp"), 
+                        "᳒ᴅᴇᴠ ҒᎡ3ΌΝ", url=f"https://t.me/PV_FR3ON"), 
                  ],[
                    InlineKeyboardButton(
-                        "☭ ՏΌႮᎡᏟᎬ  ҒᎡ3ΌΝ ☭", url=f"https://t.me/LinkXFrend"),
+                        "☭ ՏΌႮᎡᏟᎬ  ҒᎡ3ΌΝ ☭", url=f"https://t.me/sorcefraon"),
                 ],
 
             ]
